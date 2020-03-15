@@ -1,0 +1,48 @@
+*{
+        background-color: lightgrey; 
+        text-indent: 1.5cm;
+        font-family: 'Times New Roman', Times, serif;  
+        font-size: 14pt;  
+}
+p::first-letter {
+        font-size: 18pt; 
+       }
+hr{
+        color: rgb(134, 70, 238);
+        size: 5cm;
+}
+h1{
+        text-align: center;
+        font-size:30pt; 
+}
+.ay{
+        border: outset 5px rgb(134, 70, 238);
+        margin: 2cm 1cm 2cm 3cm;
+}
+table{
+        margin: 0cm 10cm 0cm 10cm;
+        border: 7px solid black;
+        width: 50%;
+}
+
+th, td {
+        border: 2px solid black;
+
+}
+table td:nth-child(2){text-align: justify;}
+table td:nth-child(3){text-align: center;}
+td:nth-child(2n){
+        background-color: lightblue;
+}
+td:nth-child(2n+1){
+        background-color:white;
+}
+img{
+        width: 60px;
+	vertical-align: middle;
+}
+.im{       
+        width: 140px;
+        float:left;
+        margin: 7px 7px 7px 0;
+}
